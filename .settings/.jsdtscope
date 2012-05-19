@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="jquery.mobile-1.0rc2/jquery.mobile-1.0rc2/|CrudApp/couch/couch/app/_attachments/js/|js/|CrudApp/js/libs/|ios/CrudApp/js/libs/|ios/CrudApp/couch/couch/app/_attachments/|CrudApp/js/|CrudApp/couch/couch/app/_attachments/|ios/CrudApp/js/|android/js/libs/|ios/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2/|android/js/|js/libs/|ios/CrudApp/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2/|CrudApp/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2/|ios/CrudApp/jquery.mobile-1.0rc2/|android/jquery.mobile-1.0rc2/|ios/jquery.mobile-1.0rc2/|ios/js/|ios/CrudApp/couch/couch/app/_attachments/js/|ios/js/libs/|jquery.mobile-1.0rc2/|CrudApp/jquery.mobile-1.0rc2/|ios/CrudApp/couch/couch/app/views/guests/|android/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2/|CrudApp/couch/couch/app/views/guests/" kind="src" path="www"/>
+	<classpathentry excluding="jquery.mobile-1.0rc2/" kind="src" path="www/android/jquery.mobile-1.0rc2"/>
+	<classpathentry kind="src" path="www/android/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2"/>
+	<classpathentry excluding="libs/" kind="src" path="www/android/js"/>
+	<classpathentry kind="src" path="www/android/js/libs"/>
+	<classpathentry excluding="js/" kind="src" path="www/CrudApp/couch/couch/app/_attachments"/>
+	<classpathentry kind="src" path="www/CrudApp/couch/couch/app/_attachments/js"/>
+	<classpathentry kind="src" path="www/CrudApp/couch/couch/app/views/guests"/>
+	<classpathentry excluding="jquery.mobile-1.0rc2/" kind="src" path="www/CrudApp/jquery.mobile-1.0rc2"/>
+	<classpathentry kind="src" path="www/CrudApp/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2"/>
+	<classpathentry excluding="libs/" kind="src" path="www/CrudApp/js"/>
+	<classpathentry kind="src" path="www/CrudApp/js/libs"/>
+	<classpathentry excluding="js/" kind="src" path="www/ios/CrudApp/couch/couch/app/_attachments"/>
+	<classpathentry kind="src" path="www/ios/CrudApp/couch/couch/app/_attachments/js"/>
+	<classpathentry kind="src" path="www/ios/CrudApp/couch/couch/app/views/guests"/>
+	<classpathentry excluding="jquery.mobile-1.0rc2/" kind="src" path="www/ios/CrudApp/jquery.mobile-1.0rc2"/>
+	<classpathentry kind="src" path="www/ios/CrudApp/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2"/>
+	<classpathentry excluding="libs/" kind="src" path="www/ios/CrudApp/js"/>
+	<classpathentry kind="src" path="www/ios/CrudApp/js/libs"/>
+	<classpathentry excluding="jquery.mobile-1.0rc2/" kind="src" path="www/ios/jquery.mobile-1.0rc2"/>
+	<classpathentry kind="src" path="www/ios/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2"/>
+	<classpathentry excluding="libs/" kind="src" path="www/ios/js"/>
+	<classpathentry kind="src" path="www/ios/js/libs"/>
+	<classpathentry excluding="jquery.mobile-1.0rc2/" kind="src" path="www/jquery.mobile-1.0rc2"/>
+	<classpathentry kind="src" path="www/jquery.mobile-1.0rc2/jquery.mobile-1.0rc2"/>
+	<classpathentry excluding="libs/" kind="src" path="www/js"/>
+	<classpathentry kind="src" path="www/js/libs"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
