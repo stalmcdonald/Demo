@@ -1,0 +1,62 @@
+<!doctype html>
+
+<!--
+
+Crystal McDonald
+AVF 1205
+Digitopia: Geo-Location Project 2
+-->
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crystal's Landing &mdash; AVF 1205 &amp; Demo App</title>
+<!-- StyleSheets under here -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0rc2/jquery.mobile-1.0rc2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" type="text/css">
+<link rel="stylesheet" href="css/ps/jquery-mobile.css"/>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/camera.css"/>
+
+ <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
+<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & attend detects -->
+<script src="js/libs/modernizr.custom.min.js"></script>
+</head>
+
+<body>
+<header>
+	<nav>
+    <div id="escapehatch" class="demo"> <a href="index.html" id="demoName">Digitopia</a>
+    </div>
+  </nav>
+ </header>
+<section  
+   <header class="label-name">
+      <h1>Say Cheese!</h1>
+    </header>
+    <div class="label">
+    <img style="width:60px;height:60px" id="test_img" src="" /> 
+    	<div <button class="button" onlick="getPicture()">From Camera</div>
+    	<div <button class="button" onlick="getPicture(PictureSourceType.PHOTO_LIBRARY)">From Photo Library<div>
+		
+    </div>
+
+  </section>
+
+     <footer id="footer">
+  <nav>
+    
+    <p class="copyright">&copy;</p>
+  <p>Digitopia 2012 </p>
+  <p>Crystal McDonald AVF 1205 DemoApp</p>
+  <div id="escapehatch" class="demo"> <a href="index.html" id="demoName">Digitopia</a>
+    </div>
+  </nav>   
+  </footer>
+    <script type="text/javascript" src="js/camera.js"></script>
+   
+<!-- End of Footer -->
+</body>
+</html>
