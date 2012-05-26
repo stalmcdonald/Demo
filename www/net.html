@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=320; user-scalable=no" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>PhoneGap</title>
+    <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" charset="utf-8" src="app.js"></script>
+  </head>
+  <body id="stage" class="theme">
+    <ul class="PanelContainer animated">
+      <li id="MainPanel" class="active">
+        <h2>this file is located at iphone/www/index.html</h2>
+        <table>
+          <tr>
+            <td>
+              <h4>Platform: <span id="platform">&nbsp;</span></h4>
+            </td>
+            <td>
+              <h4>Version: <span id="version">&nbsp;</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h4>Device Name: <span id="devicename">&nbsp;</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h4>UUID:   <span id="uuid">&nbsp;</span></h4>
+            </td>
+          </tr>
+        </table>
+        <nav>
+    <div id="escapehatch" class="demo"> <a href="index.html" id="demoName">Digitopia</a>
+    </div>
+  </nav>
+        <a href="tel://411" class="btn">Call 411</a>
+        <a href="#" class="btn" onclick="app.customAlert();">Custom Alert</a>
+        <a href="#" class="btn" onclick="app.beep();">Beep</a>
+        <a href="#" class="btn" onclick="app.vibrate();">Vibrate</a>
+      </li>
+
+      <li id="ContactsPanel" class="hidden">
+        <a href="#" class="btn large" onclick="app.getContact();">Get Fourth Contact</a>
+        <a href="#" onclick="app.addContact(true)" class="btn">New Contact (GUI)</a>
+  <!--
+	  <br />
+	  <a href="javascript:addContact(false)">New Contact (API)</a>
+	  <br />
+	  <a href="javascript:getContacts(1,1)">Get 1st Contact (query)</a>
+	  <br />
+	  <a href="javascript:displayFirstContact(false)">DISPLAY 1st Contact (by recordID)</a>
+	  <br />
+	  <a href="javascript:displayFirstContact(true)">DISPLAY AND EDIT 1st Contact (by recordID)</a>
+	  <br />
+	  <a href="javascript:getContacts(5,1)">Get 1st Page of Contacts, with Page size of 5</a>
+	  <br />
+	  <a href="javascript:getContacts(5,2)">Get 2nd Page of Contacts, with Page size of 5</a>
+	  <br />
+	  <a href="javascript:getContacts(20,1)">Get All Contacts (MAXING TO 20)</a>
+	  <br />
+	  <a href="javascript:getContactsPrompt()">Get All Contacts (PROMPT)</a>
+	  <br />
+	  <a href="javascript:getContacts()">Get ALL Contacts (WARNING: may be huge)</a>
+	  <br />
+	  <a href="javascript:contactsCount()">Contacts Count</a>
+	  <br />
+	  <a href="javascript:chooseContact(true)">Choose Contact to Edit</a>
+	  <br />
+	  <a href="javascript:chooseContact()">Choose Contact</a>
+	  <br />
+	  <a href="javascript:removeContact()">Choose Contact to Remove</a>
+	  <br />
+	  <a href="javascript:showLoadingScreen()">Load start</a>
+	  <br />
+-->
+      </li>
+
+      <li id="AccelPanel" class="hidden">
+        <dl id="accel-data">
+          <dt>X:</dt><dd id="x">&nbsp;</dd>
+          <dt>Y:</dt><dd id="y">&nbsp;</dd>
+          <dt>Z:</dt><dd id="z">&nbsp;</dd>
+        </dl>
+        <a href="#" class="btn large" onclick="app.watchAccel();">Watch Accelerometer</a>
+      </li>
+
+      <li id="LocationPanel" class="hidden">
+        <table>
+          <tr>
+            <td colspan="2">
+              <h4>Latitude: <span id="geo_lat">&nbsp;</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h4>Longitude: <span id="geo_long">&nbsp;</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h4>Altitude: <span id="geo_alt">&nbsp;</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Course: <span id="geo_course">&nbsp;</span></h4>
+            </td>
+            <td>
+              <h4>Speed: <span id="geo_speed">&nbsp;</span></h4>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h4>Horiz. Acc.: <span id="geo_x_acc">&nbsp;</span></h4>
+            </td>
+            <td>
+              <h4>Vert. Acc.: <span id="geo_y_acc">&nbsp;</span></h4>
+            </td>
+          </tr>
+        </table>
+        <a href="#" class="btn large" onclick="app.getLocation();">Get Location</a>
+      </li>
+
+      <li id="CameraPanel" class="hidden">
+      </li>
+
+    </ul>
+  </body>
+</html>

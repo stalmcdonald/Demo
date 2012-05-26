@@ -1,13 +1,6 @@
-/*
-Crystal McDonald
-AVF 1205
-Week 2: Alert/Notification
-*/
 
 
-/* popup window alert box */
-
-var deviceInfo = function(){      
+    var deviceInfo = function(){      
       document.getElementById("platform").innerHTML = device.platform;
       document.getElementById("version").innerHTML = device.version;
       document.getElementById("uuid").innerHTML = device.uuid;
@@ -89,3 +82,5 @@ var deviceInfo = function(){
 		document.addEventListener("touchmove", preventBehavior, false);
 		setTimeout(deviceInfo, 1);
 	}
+		
+
