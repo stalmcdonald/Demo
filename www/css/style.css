@@ -9,11 +9,13 @@ body {
 background:#F6F6EE ; /* my bg color off white */
 font-family:arial, georgia, sans-serif;
 font-size:100%;
+/*
 height:100%;
 margin:0;
 overflow:auto;
 padding:0;
 text-align:left;
+*/
 }
 
 /* headers */
@@ -22,9 +24,11 @@ border:0;
 font:inherit;
 font-size:100%;
 font-family: "Honey Script";
+/*
 margin:0;
 padding:0;
 vertical-align:baseline;
+*/
 }
 
 #escapehatch  {
@@ -119,8 +123,10 @@ color:#B5B5B4;
 
 
 /* THis keeps the boxes from running together */
-@media (min-width: 961px) and (max-width: 1480px) {
-.ios, .vids {
+@media /*
+(min-width: 961px) and (max-width: 1480px) {
+.ios, .vids
+*/ {
 	margin: 5% 5% 5% 0;	
 }
 
@@ -219,4 +225,34 @@ text-shadow:1px 1px 0 #b5d2ce;
 }
 
 textarea { overflow: auto; 
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.container {
+	width: 800px;
+	max-width: 90%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
 }
