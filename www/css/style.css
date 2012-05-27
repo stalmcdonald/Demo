@@ -58,11 +58,18 @@ border-top:1px solid #B3C7C4;
 box-shadow:0 2px 5px 0 rgba(10, 10, 10, 0.2) inset, 0 -3px 3px 0 rgba(0, 0, 0, 0.15) inset;
 }
 
+/* category display  */
 .label-wrap {
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
 box-sizing:border-box;
-float:left;
+box-sizing:border-box;
+margin-bottom:7px;
+padding:8px 25px;
+position:relative;
+width:75%;
+text-align: center;
+display:block;
 }
 
 .label-name {
@@ -118,6 +125,28 @@ color:#5a504e;
 border-bottom:2px  #961b25;
 color:#B5B5B4;
 }
+
+/* Categories */
+/*
+.wrap-demo{
+-moz-border-radius:5px;
+-moz-box-shadow:0 0 0 1px #B7B7B2 inset, 3px 3px 0 rgba(0, 0, 0, 0.15);
+-moz-box-sizing:border-box;
+-webkit-border-radius:5px;
+-webkit-box-shadow:0 0 0 1px #B7B7B2 inset, 3px 3px 0 rgba(0, 0, 0, 0.15);
+-webkit-box-sizing:border-box;
+background:#c9c9c0 ;
+border:2px solid #c9c9c0;
+border-radius:5px;
+box-shadow:0 0 0 1px #B7B7B2 inset, 3px 3px 0 rgba(0, 0, 0, 0.15);
+box-sizing:border-box;
+margin-bottom:7px;
+padding:8px 25px;
+position:relative;
+width:100%;
+text-align: center;
+}
+*/
 
 
 /* THis keeps the boxes from running together */

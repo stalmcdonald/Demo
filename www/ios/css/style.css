@@ -22,9 +22,11 @@ border:0;
 font:inherit;
 font-size:100%;
 font-family: "Honey Script";
+/*
 margin:0;
 padding:0;
 vertical-align:baseline;
+*/
 }
 
 #escapehatch  {
@@ -56,11 +58,18 @@ border-top:1px solid #B3C7C4;
 box-shadow:0 2px 5px 0 rgba(10, 10, 10, 0.2) inset, 0 -3px 3px 0 rgba(0, 0, 0, 0.15) inset;
 }
 
+/* category display  */
 .label-wrap {
 -moz-box-sizing:border-box;
 -webkit-box-sizing:border-box;
 box-sizing:border-box;
-float:left;
+box-sizing:border-box;
+margin-bottom:7px;
+padding:8px 25px;
+position:relative;
+width:75%;
+text-align: center;
+display:block;
 }
 
 .label-name {
@@ -117,10 +126,34 @@ border-bottom:2px  #961b25;
 color:#B5B5B4;
 }
 
+/* Categories */
+/*
+.wrap-demo{
+-moz-border-radius:5px;
+-moz-box-shadow:0 0 0 1px #B7B7B2 inset, 3px 3px 0 rgba(0, 0, 0, 0.15);
+-moz-box-sizing:border-box;
+-webkit-border-radius:5px;
+-webkit-box-shadow:0 0 0 1px #B7B7B2 inset, 3px 3px 0 rgba(0, 0, 0, 0.15);
+-webkit-box-sizing:border-box;
+background:#c9c9c0 ;
+border:2px solid #c9c9c0;
+border-radius:5px;
+box-shadow:0 0 0 1px #B7B7B2 inset, 3px 3px 0 rgba(0, 0, 0, 0.15);
+box-sizing:border-box;
+margin-bottom:7px;
+padding:8px 25px;
+position:relative;
+width:100%;
+text-align: center;
+}
+*/
+
 
 /* THis keeps the boxes from running together */
-@media (min-width: 961px) and (max-width: 1480px) {
-.ios, .vids {
+@media /*
+(min-width: 961px) and (max-width: 1480px) {
+.ios, .vids
+*/ {
 	margin: 5% 5% 5% 0;	
 }
 
@@ -219,4 +252,34 @@ text-shadow:1px 1px 0 #b5d2ce;
 }
 
 textarea { overflow: auto; 
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.container {
+	width: 800px;
+	max-width: 90%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+@media \0screen {
+  img { 
+  	width: auto; /* for ie 8 */
+  }
 }
